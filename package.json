@@ -1,0 +1,30 @@
+{
+  "name": "recommendation-services",
+  "version": "1.0.0",
+  "description": "Recommendation services for small e-commerce",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrasyidgpfl/recommendation-services.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrasyidgpfl/recommendation-services/issues"
+  },
+  "homepage": "https://github.com/mrasyidgpfl/recommendation-services#readme",
+  "dependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.15.17",
+    "express": "^5.1.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  }
+}
